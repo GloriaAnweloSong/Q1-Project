@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Personal Portfolio</title>
+</head>
+<style> 
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #684B8E;
+	}
+
+	ul li a{
+		display: block;
+		color: white;
+		width: 100%;
+		text-align: left;
+		padding: 20px 25px;
+		text-size: 32px;
+		font-weight: bold;
+		
+	}
+
+	ul li{
+		float: left;
+	}
+
+	.footer{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #9bb1e1;
+		text-align: center;
+	}
+
+	body{
+		background-color: #D1E6ED;
+	}
+
+	img{
+		height: 250px;
+		width: auto;
+		display: block;
+		margin: auto;
+		border-radius: 20px;
+	}
+	.imgorder{
+		display: flex;
+		justify-content: center;
+		gap:20px;
+	}
+
+	.works-names{
+		text-align: center;
+	}
+
+	.work img{
+		width: 250px;
+		height: auto;
+		border-radius:20px;
+	}
+
+	.Login-Form{
+		text-align: center;
+		background-color: #bcd0f2;
+		padding: 5px;
+		border-radius: 12px;
+		width: 450px;
+		height: auto;
+		margin: auto;
+		border: 8px double #9bb1e1;
+		font-family: Berlin Sans FB;
+		color: #361f0f;
+	}
+
+	button, input[type="reset"]{
+			font-size: 15px;
+		}
+
+	.Profile{
+		text-align: center;
+		background-color: #e5c46d;
+		padding: 30px;
+		border-radius: 12px;
+		width: 500px;
+		margin: auto;
+		border: 8px double #7B50A1;
+		font-family: Gill Sans MT;
+		color: #361f0f;
+	}
+
+	.works{
+		text-align: center;
+		background-color: #FC8585;
+		padding: 30px;
+		border-radius: 12px;
+		width: 800px;
+		height: auto;
+		margin: auto;
+		border: 8px double #DE5A5A;
+		color: #361f0f;
+
+
+
+	}
+</style>
+
+<div class="Profile">
+<body>
+	<ul>
+		<li><a href=".works">Works</a></li>
+		<li><a href=".contact">Contact</a></li>
+	</ul>
+<br>
+
+<h1 style="color: #361f0f; text-align: center; font-family: Berlin Sans FB;">~━━━About Me━━━~</h1>
+			<img src="Angelo Portfolio Picture.jpg" alt="Angelo Image">
+			<h1 style="text-align:center; font-family: Berlin Sans FB">Hello, I'm <span style="color: #E38F2D;">Angelo 🏖️</span></h1>
+			<h3 style="text-align: center;">An aspiring and experimental coder! 💻</h2>
+			<h5 style="text-align: center;">I am a student from OB Montessori, and aside from coding, I like playing video games, writing, and walking!</h5>
+		</div>
+
+		<br><br><br>
+<div class="works" >
+<h3 style="text-align: center; color: #361f0f;">─────────────────────</h3>
+<div class="work">
+<h3 style="text-align: center; color: #361f0f; font-family: Berlin Sans FB;"><b>🏗️ -~ My Works ~- 👷‍♂️</b></h3>
+</div>
+<div class="imgorder">
+	<div class="work">
+		<img src="Q1 SW1.png" alt="Q1 SW1">
+		<p class="works-names" style="font-family: Berlin Sans FB;">🎷 Favorite Spotify Artists!</p>
+		</p>
+	</div>
+
+<div class="imgorder">
+	<div class="work">
+		<img src="Q1 Skills Test.png" alt="Q1 Skills Test">
+		<p class="works-names" style="font-family: Berlin Sans FB;">📠 OBMC Robotics Club! </p>
+		</p>
+	</div>
+</div>
+
+<div class="imgorder">
+	<div class="work">
+		<img src="Q1 Drill2.png" alt="Q1 Drill2">
+		<p class="works-names" style="font-family: Berlin Sans FB;">🚢 Movie Reccomendations! </p>
+		</p>
+	</div>
+</div>
+</div>
+</div>
+<br><br>
+	<div class="Login-Form">
+	<form action=".">
+			<div class="contact">
+			<h2 >📞~-Contact Me-~🎋</h2>
+			</div>
+			<label for="uname">🙎‍♂ Username:</label>
+			<input id="uname" name="uname" type="text" placeholder="Enter your Username" required>
+			<br><br>
+
+			<label for="passw">🔑 Password:</label>
+			<input id="passw" name="passw" type="passw" placeholder="Enter your Password" required>
+			<br><br>
+
+		<label>📚 Where did you find me?:</label><br>
+
+		<input type="radio" id="sm-twitter" name="sm" value="twitter" required>
+		<label for="sm-twitter">Twitter</label>
+
+		<input type="radio" id="sm-twitter" name="sm" value="instagram" required>
+		<label for="sm-insta">Instagram</label>
+
+		<input type="radio" id="sm-yt" name="sm" value="youtube" required>
+		<label for="sm-yt">Youtube</label>
+		<br><br>
+
+		<h3 style="text-align: center; color: #361f0f;">─────────────────────</h3>
+
+	<label for="paragraph">📜 Any feedback to give me? 🚛:</label>
+	<br><br>
+	<textarea id="paragraph" name="paragraph" rows="5" cols="50" placeholder="Type your feedback..." required></textarea>
+	<br><br>
+
+	<input type="submit" id="submit" name="submit" value="🎈 Submit Form">
+	</form>
+</div>
+
+	<p style="text-align: center; font-family: Berlin Sans FB Demi; color: #F5F5F5;">
+		Sources:
+		 <a href="https://docs.google.com/document/d/1bXCvb-G66YdqJeBZmtmJsCGFa4KabfroxgAMB7vn0Y8/edit?tab=t.0">Click Here!</a>
+	</p>
+	<br><br><br>
+
+	<div class="footer">
+		<p style="font-family: Berlin Sans FB Demi; color: #361f0f;"><span style="font-family: Bahnschrift SemiBold;">
+		@2025 Angelo's ICT Project,</span><b> Copyright LOLOLOL <b></p>
+		<p style="text-align: center; font-family: Berlin Sans FB Demi; color: #F5F5F5;">
+		⭐ Sources:
+		 <a href="https://docs.google.com/document/d/1bXCvb-G66YdqJeBZmtmJsCGFa4KabfroxgAMB7vn0Y8/edit?tab=t.0">Click Here!</a>
+	</p>
+	</div>
+
+</body>
+</html>
